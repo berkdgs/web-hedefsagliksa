@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 D:\Documents\Git\web-hedefsagliksa\HedefSagliksa.Entities\bin\Debug\HedefSagliksa.Entities.dll
 D:\Documents\Git\web-hedefsagliksa\HedefSagliksa.Entities\bin\Debug\HedefSagliksa.Entities.pdb
 D:\Documents\Git\web-hedefsagliksa\HedefSagliksa.Entities\obj\Debug\HedefSagliksa.Entities.csprojAssemblyReference.cache
 D:\Documents\Git\web-hedefsagliksa\HedefSagliksa.Entities\obj\Debug\HedefSagliksa.Entities.csproj.CoreCompileInputs.cache
 D:\Documents\Git\web-hedefsagliksa\HedefSagliksa.Entities\obj\Debug\HedefSagliksa.Entities.dll
 D:\Documents\Git\web-hedefsagliksa\HedefSagliksa.Entities\obj\Debug\HedefSagliksa.Entities.pdb
+=======
+D:\GitHub\berkdgs\web-hedefsagliksa\HedefSagliksa.Entities\bin\Debug\HedefSagliksa.Entities.dll
+D:\GitHub\berkdgs\web-hedefsagliksa\HedefSagliksa.Entities\bin\Debug\HedefSagliksa.Entities.pdb
+D:\GitHub\berkdgs\web-hedefsagliksa\HedefSagliksa.Entities\obj\Debug\HedefSagliksa.Entities.csprojAssemblyReference.cache
+D:\GitHub\berkdgs\web-hedefsagliksa\HedefSagliksa.Entities\obj\Debug\HedefSagliksa.Entities.csproj.CoreCompileInputs.cache
+D:\GitHub\berkdgs\web-hedefsagliksa\HedefSagliksa.Entities\obj\Debug\HedefSagliksa.Entities.dll
+D:\GitHub\berkdgs\web-hedefsagliksa\HedefSagliksa.Entities\obj\Debug\HedefSagliksa.Entities.pdb
+>>>>>>> 8c640e402ddcba725761aa637eee6aaa3667d369

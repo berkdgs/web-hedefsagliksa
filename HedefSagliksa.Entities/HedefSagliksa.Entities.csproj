@@ -42,11 +42,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\IEntity.cs" />
+    <Compile Include="Concrete\Article.cs" />
+    <Compile Include="Concrete\Category.cs" />
+    <Compile Include="Concrete\Comment.cs" />
+    <Compile Include="Concrete\Identity.cs" />
+    <Compile Include="Concrete\Role.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Abstract\" />
-    <Folder Include="Concrete\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

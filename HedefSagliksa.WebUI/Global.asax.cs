@@ -1,3 +1,5 @@
+using HedefSagliksa.Business.DependencyResolves.Ninject;
+using HedefSagliksa.WebUI.Utilities.Infrastructure;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +15,8 @@ namespace HedefSagliksa.WebUI
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+
+            ControllerBuilder.Current.SetControllerFactory(new NinjectControllerFactory(new BusinessModule()));
         }
     }
 }

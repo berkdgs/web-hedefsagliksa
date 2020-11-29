@@ -51,15 +51,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\IArticleDal.cs" />
+    <Compile Include="Abstract\ICategoryDal.cs" />
+    <Compile Include="Abstract\ICommentDal.cs" />
+    <Compile Include="Abstract\IEntityRepository.cs" />
+    <Compile Include="Abstract\IIdentityDal.cs" />
+    <Compile Include="Abstract\IRoleDal.cs" />
+    <Compile Include="Concrete\EntityFramework\EfArticleDal.cs" />
+    <Compile Include="Concrete\EntityFramework\EfCategoryDal.cs" />
+    <Compile Include="Concrete\EntityFramework\EfCommentDal.cs" />
+    <Compile Include="Concrete\EntityFramework\EfEntityRepositoryBase.cs" />
+    <Compile Include="Concrete\EntityFramework\EfIdentityDal.cs" />
+    <Compile Include="Concrete\EntityFramework\EfRoleDal.cs" />
+    <Compile Include="Concrete\EntityFramework\HSContext.cs" />
+    <Compile Include="Concrete\EntityFramework\Mappings\ArticleMap.cs" />
+    <Compile Include="Concrete\EntityFramework\Mappings\CategoryMap.cs" />
+    <Compile Include="Concrete\EntityFramework\Mappings\CommentMap.cs" />
+    <Compile Include="Concrete\EntityFramework\Mappings\IdentityMap.cs" />
+    <Compile Include="Concrete\EntityFramework\Mappings\RoleMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Abstract\" />
-    <Folder Include="Concrete\EntityFramework\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HedefSagliksa.Entities\HedefSagliksa.Entities.csproj">
+      <Project>{af69ba0c-55d1-4388-9b43-a00944521a0d}</Project>
+      <Name>HedefSagliksa.Entities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

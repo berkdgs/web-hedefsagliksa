@@ -1,0 +1,6 @@
+D:\Documents\Git\web-hedefsagliksa\HedefSagliksa.Entities\bin\Debug\HedefSagliksa.Entities.dll
+D:\Documents\Git\web-hedefsagliksa\HedefSagliksa.Entities\bin\Debug\HedefSagliksa.Entities.pdb
+D:\Documents\Git\web-hedefsagliksa\HedefSagliksa.Entities\obj\Debug\HedefSagliksa.Entities.csprojAssemblyReference.cache
+D:\Documents\Git\web-hedefsagliksa\HedefSagliksa.Entities\obj\Debug\HedefSagliksa.Entities.csproj.CoreCompileInputs.cache
+D:\Documents\Git\web-hedefsagliksa\HedefSagliksa.Entities\obj\Debug\HedefSagliksa.Entities.dll
+D:\Documents\Git\web-hedefsagliksa\HedefSagliksa.Entities\obj\Debug\HedefSagliksa.Entities.pdb

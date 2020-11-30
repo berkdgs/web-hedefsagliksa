@@ -121,6 +121,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Html\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>

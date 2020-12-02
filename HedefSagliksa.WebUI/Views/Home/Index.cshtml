@@ -1,7 +1,32 @@
-﻿
+﻿@model List<HedefSagliksa.Entities.Concrete.Article>
 @{
     ViewBag.Title = "Index";
 }
+@foreach (var article in Model)
+{
+    <table border="1" class="table table-striped">
+        <tr>
+            <td>@article.ReleaseDate</td>
+            <td>@article.Title</td>
+            <td>@article.ArticleContent</td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                @foreach (var comment in article.Comments)
+                {
+                    <table border="1" class="table">
+                        <tr>
+                            <td>@comment.CommentDate</td>
+                            <td>@comment.Title</td>
+                            <td>@comment.CommentContent</td>
+                            <td>@comment.NickName</td>
+                        </tr>
+                    </table>
+                }
+            </td>
+        </tr>
+    </table>
 
+}
 <h2>Index</h2>
 

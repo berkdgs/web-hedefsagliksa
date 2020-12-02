@@ -1,0 +1,14 @@
+D:\GitHub\GitHedefSagliksa\web-hedefsagliksa\HedefSagliksa.Business\bin\Debug\HedefSagliksa.Business.dll.config
+D:\GitHub\GitHedefSagliksa\web-hedefsagliksa\HedefSagliksa.Business\bin\Debug\HedefSagliksa.Business.dll
+D:\GitHub\GitHedefSagliksa\web-hedefsagliksa\HedefSagliksa.Business\bin\Debug\HedefSagliksa.Business.pdb
+D:\GitHub\GitHedefSagliksa\web-hedefsagliksa\HedefSagliksa.Business\bin\Debug\EntityFramework.dll
+D:\GitHub\GitHedefSagliksa\web-hedefsagliksa\HedefSagliksa.Business\bin\Debug\EntityFramework.SqlServer.dll
+D:\GitHub\GitHedefSagliksa\web-hedefsagliksa\HedefSagliksa.Business\bin\Debug\HedefSagliksa.Entities.dll
+D:\GitHub\GitHedefSagliksa\web-hedefsagliksa\HedefSagliksa.Business\bin\Debug\HedefSagliksa.Entities.pdb
+D:\GitHub\GitHedefSagliksa\web-hedefsagliksa\HedefSagliksa.Business\bin\Debug\EntityFramework.xml
+D:\GitHub\GitHedefSagliksa\web-hedefsagliksa\HedefSagliksa.Business\bin\Debug\EntityFramework.SqlServer.xml
+D:\GitHub\GitHedefSagliksa\web-hedefsagliksa\HedefSagliksa.Business\obj\Debug\HedefSagliksa.Business.csprojAssemblyReference.cache
+D:\GitHub\GitHedefSagliksa\web-hedefsagliksa\HedefSagliksa.Business\obj\Debug\HedefSagliksa.Business.csproj.CoreCompileInputs.cache
+D:\GitHub\GitHedefSagliksa\web-hedefsagliksa\HedefSagliksa.Business\obj\Debug\HedefSagliksa.Business.csproj.CopyComplete
+D:\GitHub\GitHedefSagliksa\web-hedefsagliksa\HedefSagliksa.Business\obj\Debug\HedefSagliksa.Business.dll
+D:\GitHub\GitHedefSagliksa\web-hedefsagliksa\HedefSagliksa.Business\obj\Debug\HedefSagliksa.Business.pdb

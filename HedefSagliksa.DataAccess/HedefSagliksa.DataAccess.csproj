@@ -51,15 +51,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Concrete\EntityFramework\Context\HSContext.cs" />
+    <Compile Include="Concrete\EntityFramework\FirstSampleDatas\BlogInitializer.cs" />
+    <Compile Include="Concrete\EntityFramework\Mapping\ArticleMap.cs" />
+    <Compile Include="Concrete\EntityFramework\Mapping\CategoryMap.cs" />
+    <Compile Include="Concrete\EntityFramework\Mapping\CommentMap.cs" />
+    <Compile Include="Concrete\EntityFramework\Mapping\IdentityMap.cs" />
+    <Compile Include="Concrete\EntityFramework\Mapping\RoleMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Abstract\" />
-    <Folder Include="Concrete\EntityFramework\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HedefSagliksa.Entities\HedefSagliksa.Entities.csproj">
+      <Project>{af69ba0c-55d1-4388-9b43-a00944521a0d}</Project>
+      <Name>HedefSagliksa.Entities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

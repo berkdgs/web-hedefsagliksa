@@ -61,6 +61,12 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HedefSagliksa.Entities\HedefSagliksa.Entities.csproj">
+      <Project>{af69ba0c-55d1-4388-9b43-a00944521a0d}</Project>
+      <Name>HedefSagliksa.Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

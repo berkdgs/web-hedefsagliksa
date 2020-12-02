@@ -1,0 +1,14 @@
+D:\GitHub\GitHedefSagliksa\web-hedefsagliksa\HedefSagliksa.DataAccess\bin\Debug\HedefSagliksa.DataAccess.dll.config
+D:\GitHub\GitHedefSagliksa\web-hedefsagliksa\HedefSagliksa.DataAccess\bin\Debug\HedefSagliksa.DataAccess.dll
+D:\GitHub\GitHedefSagliksa\web-hedefsagliksa\HedefSagliksa.DataAccess\bin\Debug\HedefSagliksa.DataAccess.pdb
+D:\GitHub\GitHedefSagliksa\web-hedefsagliksa\HedefSagliksa.DataAccess\bin\Debug\EntityFramework.dll
+D:\GitHub\GitHedefSagliksa\web-hedefsagliksa\HedefSagliksa.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+D:\GitHub\GitHedefSagliksa\web-hedefsagliksa\HedefSagliksa.DataAccess\bin\Debug\HedefSagliksa.Entities.dll
+D:\GitHub\GitHedefSagliksa\web-hedefsagliksa\HedefSagliksa.DataAccess\bin\Debug\HedefSagliksa.Entities.pdb
+D:\GitHub\GitHedefSagliksa\web-hedefsagliksa\HedefSagliksa.DataAccess\bin\Debug\EntityFramework.xml
+D:\GitHub\GitHedefSagliksa\web-hedefsagliksa\HedefSagliksa.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+D:\GitHub\GitHedefSagliksa\web-hedefsagliksa\HedefSagliksa.DataAccess\obj\Debug\HedefSagliksa.DataAccess.csprojAssemblyReference.cache
+D:\GitHub\GitHedefSagliksa\web-hedefsagliksa\HedefSagliksa.DataAccess\obj\Debug\HedefSagliksa.DataAccess.csproj.CoreCompileInputs.cache
+D:\GitHub\GitHedefSagliksa\web-hedefsagliksa\HedefSagliksa.DataAccess\obj\Debug\HedefSagliksa.DataAccess.csproj.CopyComplete
+D:\GitHub\GitHedefSagliksa\web-hedefsagliksa\HedefSagliksa.DataAccess\obj\Debug\HedefSagliksa.DataAccess.dll
+D:\GitHub\GitHedefSagliksa\web-hedefsagliksa\HedefSagliksa.DataAccess\obj\Debug\HedefSagliksa.DataAccess.pdb

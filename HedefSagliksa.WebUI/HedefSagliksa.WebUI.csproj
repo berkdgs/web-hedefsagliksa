@@ -96,6 +96,7 @@
   <ItemGroup>
     <Content Include="Content\Site.css" />
     <Content Include="Global.asax" />
+    <Content Include="Html\2ndindex.html" />
     <Content Include="Html\index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -123,6 +124,16 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HedefSagliksa.DataAccess\HedefSagliksa.DataAccess.csproj">
+      <Project>{e5587f44-5daf-4e44-a77e-cec5fc4daf06}</Project>
+      <Name>HedefSagliksa.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HedefSagliksa.Entities\HedefSagliksa.Entities.csproj">
+      <Project>{af69ba0c-55d1-4388-9b43-a00944521a0d}</Project>
+      <Name>HedefSagliksa.Entities</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

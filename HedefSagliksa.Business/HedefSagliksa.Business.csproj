@@ -40,6 +40,12 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="FluentValidation, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7de548da2fbae0f0, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentValidation.9.3.0\lib\net461\FluentValidation.dll</HintPath>
+    </Reference>
+    <Reference Include="Ninject, Version=3.3.4.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ninject.3.3.4\lib\net45\Ninject.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -51,17 +57,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Abstract\IArticleManager.cs" />
+    <Compile Include="Abstract\IArticleService.cs" />
+    <Compile Include="Abstract\ICategoryService.cs" />
+    <Compile Include="Abstract\ICommentService.cs" />
+    <Compile Include="Abstract\IIdentityService.cs" />
+    <Compile Include="Abstract\IRoleService.cs" />
+    <Compile Include="Concrete\ArticleManager.cs" />
+    <Compile Include="Concrete\CategoryManager.cs" />
+    <Compile Include="Concrete\CommentManager.cs" />
+    <Compile Include="Concrete\IdentityManager.cs" />
+    <Compile Include="Concrete\RoleManager.cs" />
+    <Compile Include="DependencyResolvers\Ninject\BusinessModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities\ValidationTool.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Concrete\" />
+    <Folder Include="ValidationRules\FluentValidation\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\HedefSagliksa.DataAccess\HedefSagliksa.DataAccess.csproj">
+      <Project>{e5587f44-5daf-4e44-a77e-cec5fc4daf06}</Project>
+      <Name>HedefSagliksa.DataAccess</Name>
+    </ProjectReference>
     <ProjectReference Include="..\HedefSagliksa.Entities\HedefSagliksa.Entities.csproj">
       <Project>{af69ba0c-55d1-4388-9b43-a00944521a0d}</Project>
       <Name>HedefSagliksa.Entities</Name>

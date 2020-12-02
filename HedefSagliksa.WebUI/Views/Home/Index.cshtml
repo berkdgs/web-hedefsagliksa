@@ -2,6 +2,9 @@
 @{
     ViewBag.Title = "Index";
 }
+
+<h2>Ana Sayfa</h2>
+
 @foreach (var article in Model)
 {
     <table border="1" class="table table-striped">
@@ -26,7 +29,7 @@
             </td>
         </tr>
     </table>
-
 }
-<h2>Index</h2>
+
+@Html.ActionLink("Blog Ekle", "Add", "Article", new { area=""}, new { @class="btn btn-success"})
 

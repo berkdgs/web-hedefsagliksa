@@ -12,3 +12,10 @@ D:\GitHub\GitHedefSagliksa\web-hedefsagliksa\HedefSagliksa.Business\obj\Debug\He
 D:\GitHub\GitHedefSagliksa\web-hedefsagliksa\HedefSagliksa.Business\obj\Debug\HedefSagliksa.Business.csproj.CopyComplete
 D:\GitHub\GitHedefSagliksa\web-hedefsagliksa\HedefSagliksa.Business\obj\Debug\HedefSagliksa.Business.dll
 D:\GitHub\GitHedefSagliksa\web-hedefsagliksa\HedefSagliksa.Business\obj\Debug\HedefSagliksa.Business.pdb
+D:\GitHub\GitHedefSagliksa\web-hedefsagliksa\HedefSagliksa.Business\bin\Debug\FluentValidation.dll
+D:\GitHub\GitHedefSagliksa\web-hedefsagliksa\HedefSagliksa.Business\bin\Debug\HedefSagliksa.DataAccess.dll
+D:\GitHub\GitHedefSagliksa\web-hedefsagliksa\HedefSagliksa.Business\bin\Debug\Ninject.dll
+D:\GitHub\GitHedefSagliksa\web-hedefsagliksa\HedefSagliksa.Business\bin\Debug\HedefSagliksa.DataAccess.pdb
+D:\GitHub\GitHedefSagliksa\web-hedefsagliksa\HedefSagliksa.Business\bin\Debug\HedefSagliksa.DataAccess.dll.config
+D:\GitHub\GitHedefSagliksa\web-hedefsagliksa\HedefSagliksa.Business\bin\Debug\FluentValidation.xml
+D:\GitHub\GitHedefSagliksa\web-hedefsagliksa\HedefSagliksa.Business\bin\Debug\Ninject.xml

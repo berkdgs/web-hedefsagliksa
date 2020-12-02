@@ -12,3 +12,5 @@ D:\GitHub\GitHedefSagliksa\web-hedefsagliksa\HedefSagliksa.DataAccess\obj\Debug\
 D:\GitHub\GitHedefSagliksa\web-hedefsagliksa\HedefSagliksa.DataAccess\obj\Debug\HedefSagliksa.DataAccess.csproj.CopyComplete
 D:\GitHub\GitHedefSagliksa\web-hedefsagliksa\HedefSagliksa.DataAccess\obj\Debug\HedefSagliksa.DataAccess.dll
 D:\GitHub\GitHedefSagliksa\web-hedefsagliksa\HedefSagliksa.DataAccess\obj\Debug\HedefSagliksa.DataAccess.pdb
+D:\GitHub\GitHedefSagliksa\web-hedefsagliksa\HedefSagliksa.DataAccess\bin\Debug\Ninject.dll
+D:\GitHub\GitHedefSagliksa\web-hedefsagliksa\HedefSagliksa.DataAccess\bin\Debug\Ninject.xml

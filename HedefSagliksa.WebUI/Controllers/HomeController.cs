@@ -1,4 +1,5 @@
 ﻿
+using HedefSagliksa.Business.Abstract;
 using HedefSagliksa.DataAccess.Concrete.EntityFramework.Context;
 using HedefSagliksa.Entities.Concrete;
 using System;
@@ -11,15 +12,18 @@ namespace HedefSagliksa.WebUI.Controllers
 {
     public class HomeController : Controller
     {
-        
+        private readonly IArticleService _articleService;
+
+        public HomeController(IArticleService articleService)
+        {
+            _articleService = articleService;
+        }
+
         // GET: Home
         public ActionResult Index()
         {
-            List<Article> articles;
-            using (var db = new HSContext())
-            {
-                articles = db.Articles.Include("Comments").ToList();
-            }
+            
+            List<Article> articles = _articleService.GetAll(x => x.Active);
             return View(articles);
         }
     }

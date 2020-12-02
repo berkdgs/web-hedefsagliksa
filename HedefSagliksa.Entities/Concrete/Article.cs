@@ -20,7 +20,7 @@ namespace HedefSagliksa.Entities.Concrete
         public bool HomePage { get; set; }
         public bool Active { get; set; }
 
-        public int AuthorId { get; set; }
+        public int IdentityId { get; set; }
         public virtual Identity Identity { get; set; }
         public int CategoryId { get; set; }
         public virtual Category Category { get; set; }

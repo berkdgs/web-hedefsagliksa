@@ -25,7 +25,7 @@ namespace HedefSagliksa.DataAccess.Concrete.EntityFramework.Mapping
             Property(x => x.ReleaseDate).IsRequired();
             Property(x => x.Active).IsRequired();
             Property(x => x.HomePage).IsRequired();
-            Property(x => x.AuthorId).IsRequired().HasColumnName("IdentityId");
+            Property(x => x.IdentityId).IsRequired();
             Property(x => x.CategoryId).IsRequired();
             
         }

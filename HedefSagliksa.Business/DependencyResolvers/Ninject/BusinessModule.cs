@@ -2,6 +2,7 @@
 using HedefSagliksa.Business.Concrete;
 using HedefSagliksa.DataAccess.Abstract;
 using HedefSagliksa.DataAccess.Concrete.EntityFramework;
+using HedefSagliksa.DataAccess.Concrete.GoogleCloudFireBase;
 using Ninject.Modules;
 using System;
 using System.Collections.Generic;
@@ -19,7 +20,7 @@ namespace HedefSagliksa.Business.DependencyResolvers.Ninject
             Bind<IArticleDal>().To<EfArticleDal>().InSingletonScope();
 
             Bind<ICategoryService>().To<CategoryManager>().InSingletonScope();
-            Bind<ICategoryDal>().To<EfCategoryDal>().InSingletonScope();
+            Bind<ICategoryDal>().To<FbCategoryDal>().InSingletonScope();
 
             Bind<ICommentService>().To<CommentManager>().InSingletonScope();
             Bind<ICommentDal>().To<EfCommentDal>().InSingletonScope();

@@ -39,6 +39,11 @@ namespace HedefSagliksa.Business.Concrete
             return _categoryDal.GetAll(filter);
         }
 
+        public Category GetById(string id)
+        {
+            return _categoryDal.GetById(id);
+        }
+
         public void Update(Category entity)
         {
             _categoryDal.Update(entity);

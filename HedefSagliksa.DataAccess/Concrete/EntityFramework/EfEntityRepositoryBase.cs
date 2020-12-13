@@ -18,6 +18,7 @@ namespace HedefSagliksa.DataAccess.Concrete.EntityFramework
         {
             using (var context = new TContext())
             {
+                entity.GetType().GetProperty("Id").SetValue(entity, Guid.NewGuid().ToString());
                 context.Entry(entity).State = EntityState.Added;
                 context.SaveChanges();
             }
@@ -42,11 +43,20 @@ namespace HedefSagliksa.DataAccess.Concrete.EntityFramework
 
         public List<TEntity> GetAll(Expression<Func<TEntity, bool>> filter = null)
         {
+            
             using (var context = new TContext())
             {
-                return filter == null 
-                    ? context.Set<TEntity>().Include("Comments").ToList() 
-                    : context.Set<TEntity>().Include("Comments").Where(filter).ToList();
+                return filter == null
+                    ? context.Set<TEntity>().ToList() 
+                    : context.Set<TEntity>().Where(filter).ToList();
+            }
+        }
+
+        public TEntity GetById(string id)
+        {
+            using (var context = new TContext())
+            {
+                return context.Set<TEntity>().Find(id);
             }
         }
 

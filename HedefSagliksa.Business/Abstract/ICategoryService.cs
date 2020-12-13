@@ -8,10 +8,11 @@ using System.Threading.Tasks;
 
 namespace HedefSagliksa.Business.Abstract
 {
-    interface ICategoryService
+    public interface ICategoryService
     {
         List<Category> GetAll(Expression<Func<Category, bool>> filter = null);
         Category Get(Expression<Func<Category, bool>> expression);
+        Category GetById(string id);
         void Add(Category entity);
         void Update(Category entity);
         void Delete(Category entity);

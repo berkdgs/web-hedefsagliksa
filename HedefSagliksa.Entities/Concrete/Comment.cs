@@ -14,6 +14,8 @@ namespace HedefSagliksa.Entities.Concrete
         public string CommentContent { get; set; }
         public DateTime CommentDate { get; set; }
         public string NickName { get; set; }
+        public bool Active { get; set; }
+        // Yorumun onaylandıktan sonra yayınlanması gerekiyor.
 
         public int ArticleId { get; set; }
         public Article Article { get; set; }

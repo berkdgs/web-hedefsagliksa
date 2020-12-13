@@ -12,6 +12,7 @@ namespace HedefSagliksa.Entities.Concrete
         public int Id { get; set; }
         public string RoleName { get; set; }
         public string RoleDescription { get; set; }
+
         public virtual ICollection<Identity> Identities { get; set; }
 
     }

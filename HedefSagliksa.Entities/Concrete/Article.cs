@@ -22,7 +22,7 @@ namespace HedefSagliksa.Entities.Concrete
 
         public int IdentityId { get; set; }
         public virtual Identity Identity { get; set; }
-        public int CategoryId { get; set; }
+        public string CategoryId { get; set; }
         public virtual Category Category { get; set; }
         public virtual ICollection<Comment> Comments { get; set; }
     }

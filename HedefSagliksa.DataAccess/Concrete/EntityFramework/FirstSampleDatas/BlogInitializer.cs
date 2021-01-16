@@ -33,8 +33,8 @@ namespace HedefSagliksa.DataAccess.Concrete.EntityFramework.FirstSampleDatas
 
             List<Identity> identities = new List<Identity>
             {
-                new Identity{ UserName="admin", Password="123456", Name="Berk", Surname="Doğuş", EMail="berk.dogus@gmail.com", RoleId=1},
-                new Identity{ UserName="atekes", Password="24680", Name="Aysun", Surname="Tekeş", EMail="aysuntekesyuksel@gmail.com", RoleId=2}
+                new Identity{ UserName="", Password="", Name="Berk", Surname="", EMail="", RoleId=1},
+                new Identity{ UserName="", Password="", Name="Aysun", Surname="", EMail="", RoleId=2}
             };
 
             context.Identities.AddRange(identities);
